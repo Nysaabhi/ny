@@ -35,34 +35,6 @@
                 radial-gradient(circle at 80% 80%, rgba(255, 215, 0, 0.05) 0%, transparent 40%);
         }
 
-        .header {
-            padding: 20px;
-            background: rgba(0, 0, 0, 0.8);
-            backdrop-filter: blur(20px);
-            position: fixed;
-            width: 100%;
-            top: 0;
-            z-index: 1000;
-            border-bottom: 1px solid rgba(255, 215, 0, 0.1);
-        }
-
-        .header-content {
-            max-width: 600px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .logo {
-            font-size: 1.8em;
-            font-weight: 800;
-            background: var(--premium-gradient);
-            -webkit-background-clip: text;
-            color: transparent;
-            letter-spacing: 1px;
-        }
-
         .connect-wallet {
             padding: 10px 20px;
             background: var(--premium-gradient);
@@ -213,7 +185,6 @@
 <body>
     <header class="header">
         <div class="header-content">
-            <div class="logo">GENESIS NFT</div>
             <button class="connect-wallet">
                 <i class="fas fa-wallet"></i>
                 Connect
