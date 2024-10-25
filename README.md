@@ -1,4 +1,3 @@
-# ny
 # gensis-
 <html>
 <head>
